@@ -148,13 +148,3 @@ The forecasting approach is based on the **SARIMA (Seasonal ARIMA)** model, whic
 
 ---
 
-## Acknowledgements
-
-- Thanks to Walmart for providing the dataset.
-- Appreciation to the developers of open-source libraries such as Pandas, NumPy, Matplotlib, Seaborn, Statsmodels, and pmdarima.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
