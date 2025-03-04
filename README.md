@@ -14,19 +14,19 @@
 11. [Acknowledgements](#acknowledgements)
 12. [License](#license)
 
----
+
 
 ## Introduction
 
 This repository contains a single Jupyter Notebook file, **Capstone_Project_Walmart.ipynb**, which encompasses the entire Walmart Sales Prediction project. The notebook includes data preprocessing, exploratory data analysis, modeling using the SARIMA framework, forecasting, and model evaluation. The project aims to forecast weekly sales for 45 Walmart stores for the next 12 weeks, providing valuable insights for inventory and resource planning.
 
----
+
 
 ## Problem Statement
 
 Retail chains with multiple outlets face challenges in managing inventory due to mismatches between supply and demand. This project tackles the problem by analyzing historical sales data and predicting future weekly sales, aiding effective inventory management and decision-making.
 
----
+
 
 ## Project Objectives
 
@@ -35,7 +35,7 @@ Retail chains with multiple outlets face challenges in managing inventory due to
 - **Actionable Recommendations:** Identify trends and provide insights to optimize inventory levels and improve operational efficiency.
 - **Model Evaluation:** Validate the forecasting model using metrics such as MAE, MSE, and RMSE.
 
----
+
 
 ## Data Description
 
@@ -50,7 +50,7 @@ The dataset (Walmart.csv) includes 6,435 rows and 8 columns with the following f
 - **CPI:** Consumer Price Index
 - **Unemployment:** Unemployment rate
 
----
+
 
 ## Data Preprocessing
 
@@ -62,7 +62,7 @@ Key preprocessing steps in the notebook include:
 - **Outlier Detection:** Identify any outliers in numerical features.
 - **Scaling (Optional):** Normalize numerical features if needed.
 
----
+
 
 ## Exploratory Data Analysis (EDA)
 
@@ -78,7 +78,7 @@ The notebook performs an in-depth exploratory analysis by:
     - Identification of sales patterns during holidays
     - Analysis of how external factors affect sales
 
----
+
 
 ## Modeling and Forecasting
 
@@ -96,7 +96,7 @@ The forecasting approach is based on the **SARIMA (Seasonal ARIMA)** model, whic
 5. **Evaluation:**  
     - Metrics such as MAE, MSE, and RMSE are used to assess model performance.
 
----
+
 
 ## Results and Evaluation
 
@@ -109,7 +109,7 @@ The forecasting approach is based on the **SARIMA (Seasonal ARIMA)** model, whic
     - Variation in sensitivity to external factors such as unemployment and CPI.
     - The SARIMA model effectively captures the underlying sales patterns, providing reliable forecasts.
 
----
+
 
 ## How to Run the Notebook
 
@@ -137,7 +137,7 @@ The forecasting approach is based on the **SARIMA (Seasonal ARIMA)** model, whic
     bash
     jupyter notebook Capstone_Project_Walmart.ipynb
 
----
+
 
 ## Future Work
 
@@ -146,5 +146,5 @@ The forecasting approach is based on the **SARIMA (Seasonal ARIMA)** model, whic
 - **Real-Time Updates:** Implement dynamic forecasting as new data becomes available.
 - **Inventory Optimization:** Integrate forecasting with inventory management systems for improved decision-making.
 
----
+
 
